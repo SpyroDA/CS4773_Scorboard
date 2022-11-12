@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="242.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text layoutX="118.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on a Team to Edit" textAlignment="CENTER" wrappingWidth="154.8033905029297" />
+      <ListView fx:id="myListView" editable="true" layoutX="73.0" layoutY="41.0" prefHeight="187.0" prefWidth="243.0" />
+   </children>
+</AnchorPane>
